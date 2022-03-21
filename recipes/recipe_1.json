@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "PRICE": "group('open','high','low')",
+    "DAY": "group('month','day','week_day')",
+    "TIME": "group('day','hour','minute')"
+  },
+  "assignments": {},
+  "outputs": [
+    "PRICE",
+    "DAY",
+    "TIME"
+  ]
+}

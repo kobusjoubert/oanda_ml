@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "NUMERIC_VARS_QB_500": "group('a','b','c')",
+    "NUMERIC_VARS_QB_10": "group('hour')"
+  },
+  "assignments": {},
+  "outputs": [
+    "quantile_bin(NUMERIC_VARS_QB_500,500)",
+    "quantile_bin(NUMERIC_VARS_QB_10,10)"
+  ]
+}

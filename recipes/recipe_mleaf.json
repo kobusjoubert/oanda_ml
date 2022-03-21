@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "NUMERIC_VARS_QB_500": "group('p_a','p_b','p_c','p_d','p_e','p_f','p_g','p_h','p_i','p_j')",
+    "NUMERIC_VARS_QB_100": "group('hour_j_diff')"
+  },
+  "assignments": {},
+  "outputs": [
+    "quantile_bin(NUMERIC_VARS_QB_500,500)",
+    "quantile_bin(NUMERIC_VARS_QB_100,100)"
+  ]
+}
